@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSME – Elevate Labs Landing Page</title>
+
+  <!-- Google Font (Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">Ministry of MSME</div>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Empowering Micro, Small & Medium Enterprises</h1>
+      <p>
+        Transforming India’s MSME ecosystem with financial aid, skill development, 
+        and market expansion opportunities.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#programs" class="btn primary">Explore Programs</a>
+        <a href="#contact" class="btn secondary">Get Support</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features container" id="programs">
+    <h2 class="section-title">Key Initiatives</h2>
+
+    <div class="cards">
+      <div class="feature-card">
+        <h3>💰 Credit Support</h3>
+        <p>Loan and credit schemes to empower small businesses.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>📘 Skill Development</h3>
+        <p>Training programs to enhance entrepreneurial skills.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>🌍 Market Access</h3>
+        <p>Connecting MSMEs to global and domestic markets.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about container" id="about">
+    <h2 class="section-title">About the Ministry</h2>
+    <p>
+      The Ministry of Micro, Small & Medium Enterprises drives sustainable growth 
+      by supporting over 6 crore Indian businesses through policy, finance, and innovation.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact container" id="contact">
+    <h2 class="section-title">Contact & Resources</h2>
+    <p>
+      Get assistance, apply for schemes, and explore programs through official MSME portals.
+    </p>
+    <a href="#" class="btn primary">Visit Official Portal</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Ministry of MSME, Govt. of India</p>
+  </footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
